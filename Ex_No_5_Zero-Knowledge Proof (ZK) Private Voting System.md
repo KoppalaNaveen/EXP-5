@@ -21,6 +21,9 @@ Once voting ends, the contract reveals the final tally without linking votes to 
 
 
 # Program:
+
+### Name : Koppala Naveen
+### Register Number : 212223100023
 ```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
@@ -55,6 +58,7 @@ contract ZKVoting {
     }
 }
 
+
 ```
 # Expected Output:
 Voters commit their votes privately.
@@ -65,6 +69,13 @@ When revealed, the contract verifies correctness but keeps votes anonymous.
 
 Final result is publicly verifiable without exposing individual votes.
 
+# Output : 
+
+<img width="1448" height="938" alt="image" src="https://github.com/user-attachments/assets/af695245-61d2-4d57-8b45-ed00279f5948" />
+
+<img width="1426" height="952" alt="image" src="https://github.com/user-attachments/assets/e1f96d58-f364-47b9-a0de-4de5c1bdcf7e" />
+
+<img width="1428" height="948" alt="image" src="https://github.com/user-attachments/assets/8d210d0a-52eb-46b3-94db-09ce090ca7a3" />
 
 
 # High-Level Overview:
@@ -77,3 +88,5 @@ Prevents vote tampering while maintaining voter privacy.
 Mimics real-world ZK voting applications in governance and DAOs.
 
 # RESULT: 
+
+Thus,the execution of Zk Private Voting System has executed Successfully.
